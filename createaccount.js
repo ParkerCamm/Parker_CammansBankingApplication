@@ -18,7 +18,7 @@ function CreateAccount(){
 	}
 
 	function passwordLength(field, label){
-		if (field.length < 8) {
+		if (field.length < 5) {
 		  setStatus('Error: ' + label + ' needed');
 		  setTimeout(() => setStatus(''),3000);
 		  return false;
@@ -31,7 +31,7 @@ function CreateAccount(){
 	  if (!validate(name,     'name'))     return;
 	  if (!validate(email,    'email'))    return;
 	  if (!validate(password, 'password')) return;
-	  if(!passwordLength(password, 'Password must be 8 characters in length')) return;
+	  if(!passwordLength(password, 'Password must be 5 characters in length')) return;
 	  ctx.users.push(name,email,password);
 	  console.log(ctx);
 	  //console.log(ctx.users);
