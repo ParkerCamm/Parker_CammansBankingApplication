@@ -4,7 +4,7 @@ function AllData(){
     <>
     <h5>Bank Activity History</h5>
     {JSON.stringify(ctx)}<br/>
+    <h1>photo credit: bgs_digital_creator</h1>
     </>
   );
-<h1>photo credit: bgs_digital_creator</h1>
 }
