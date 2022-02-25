@@ -6,4 +6,5 @@ function AllData(){
     {JSON.stringify(ctx)}<br/>
     </>
   );
+<h1>photo credit: bgs_digital_creator</h1>
 }
